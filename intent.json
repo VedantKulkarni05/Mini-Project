@@ -1,0 +1,245 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "keywords": ["hi", "hello", "hey", "good morning", "good afternoon", "howdy", "what's up"],
+      "response": "Hello! 👋 Welcome to the GES R.H. Sapat College of Engineering Helpdesk. How can I help you today?"
+    },
+    {
+      "tag": "college_overview",
+      "keywords": ["about college", "what is this college", "tell me about rhscoe", "college info", "overview", "about ges", "what college is this"],
+      "response": "GES R.H. Sapat College of Engineering, Management Studies & Research is located in Nashik, established in 2009. It is AICTE approved, affiliated to Savitribai Phule Pune University (SPPU), ISO 9001:2015 certified, and NAAC accredited with B++ grade."
+    },
+    {
+      "tag": "college_full_name",
+      "keywords": ["full name of college", "college name", "what does rhscoe stand for", "ges full form", "expand college name"],
+      "response": "The full name is Gokhale Education Society's R.H. Sapat College of Engineering, Management Studies and Research, Nashik – 422005."
+    },
+    {
+      "tag": "established_year",
+      "keywords": ["when was college established", "founded year", "establishment year", "how old is college", "college started"],
+      "response": "The college was established in the year 2009 and is run by the Gokhale Education Society."
+    },
+    {
+      "tag": "affiliation",
+      "keywords": ["affiliated to", "university", "sppu", "pune university", "which university", "affiliation"],
+      "response": "The college is affiliated to Savitribai Phule Pune University (SPPU), Pune, and is approved by AICTE, New Delhi."
+    },
+    {
+      "tag": "accreditation",
+      "keywords": ["naac grade", "accreditation", "naac", "iso certified", "ratings", "grade of college"],
+      "response": "The college is NAAC accredited with B++ grade (2025–2030) for the 2nd cycle and is ISO 9001:2015 certified."
+    },
+    {
+      "tag": "ug_courses",
+      "keywords": ["ug courses", "undergraduate programs", "be courses", "bachelor courses", "4 year courses", "engineering courses offered"],
+      "response": "UG programs offered: Computer Engineering, Artificial Intelligence & Data Science, Civil Engineering, Electrical Engineering, Electronics & Telecommunication Engineering, and Mechanical Engineering."
+    },
+    {
+      "tag": "pg_courses",
+      "keywords": ["pg courses", "postgraduate", "me courses", "mca", "masters programs", "m.e.", "post graduate"],
+      "response": "PG programs offered: M.E. in Computer Engineering, Digital Systems, Mechanical Engineering Design, Power Electronics & Drives, and MCA (Faculty of Engineering)."
+    },
+    {
+      "tag": "total_intake",
+      "keywords": ["total seats", "intake", "how many students", "strength", "capacity", "seats available"],
+      "response": "The institute offers 6 UG and 5 PG programs with a total UG intake of 708 students per year, along with MCA."
+    },
+    {
+      "tag": "computer_department",
+      "keywords": ["computer department", "computer engineering", "ce department", "cs dept", "computer science"],
+      "response": "The Computer Engineering & AI/DS department offers B.E. in Computer Engineering and AI & Data Science, and M.E. in Computer Engineering. Visit: ce.ges-coengg.org"
+    },
+    {
+      "tag": "mechanical_department",
+      "keywords": ["mechanical department", "mechanical engineering", "me dept", "mech"],
+      "response": "The Mechanical Engineering department offers B.E. in Mechanical Engineering and M.E. in Mechanical Engineering Design. Visit: me.ges-coengg.org"
+    },
+    {
+      "tag": "electrical_department",
+      "keywords": ["electrical department", "electrical engineering", "ee dept", "electrical"],
+      "response": "The Electrical Engineering department offers B.E. in Electrical Engineering and M.E. in Power Electronics & Drives. Visit: ee.ges-coengg.org"
+    },
+    {
+      "tag": "electronics_department",
+      "keywords": ["electronics department", "etc", "electronics telecommunication", "e&tc", "extc dept"],
+      "response": "The Electronics & Telecommunication Engineering department offers B.E. in E&TC and M.E. in Digital Systems. Visit: etc.ges-coengg.org"
+    },
+    {
+      "tag": "civil_department",
+      "keywords": ["civil department", "civil engineering", "civil dept"],
+      "response": "The Civil Engineering department offers B.E. in Civil Engineering. Visit: civil.ges-coengg.org"
+    },
+    {
+      "tag": "ai_ds_department",
+      "keywords": ["ai department", "data science", "artificial intelligence", "ai and ds", "ai & ds"],
+      "response": "AI & Data Science is offered as a B.E. program under the Computer Engineering & AI/DS department. More info at: ges-coengg.org/ai-ds-department-home"
+    },
+    {
+      "tag": "mca_department",
+      "keywords": ["mca", "master of computer applications", "mca course", "mca admission", "mca program"],
+      "response": "MCA (Faculty of Engineering) is a post-graduate program offered by the college. Visit: mca.ges-coengg.org for more details."
+    },
+    {
+      "tag": "hod_computer_aids",
+      "keywords": ["hod computer", "head computer department", "computer department hod", "who is hod of ce", "aids hod", "hod aids", "head of computer engineering", "dr patil computer", "dipak patil"],
+      "response": "HOD of Computer Engineering & AI/DS: Dr. D. V. Patil (PhD, Computer Engineering). 📧 dipak.patil@ges-coengg.org | headcomp@ges-coengg.org"
+    },
+    {
+      "tag": "hod_mechanical",
+      "keywords": ["hod mechanical", "head mechanical department", "mech hod", "who is hod of mech", "mechanical department head", "dr nehe", "prashant nehe"],
+      "response": "HOD of Mechanical Engineering: Dr. P. B. Nehe (PhD, M.Tech – IIT Bombay). 📧 prashant.nehe@ges-coengg.org"
+    },
+    {
+      "tag": "hod_entc",
+      "keywords": ["hod entc", "hod etc", "electronics hod", "head of electronics", "e&tc hod", "extc hod", "who is hod of entc", "dr agnihotri", "santosh agnihotri"],
+      "response": "HOD of Electronics & Telecommunication Engineering: Dr. S. P. Agnihotri (PhD, Control System – COEP Pune), also serves as Vice-Principal. 📧 santosh.agnihotri@ges-coengg.org"
+    },
+    {
+      "tag": "hod_electrical",
+      "keywords": ["hod electrical", "head electrical department", "ee hod", "who is hod of electrical", "electrical department head", "dr chaudhari electrical", "mandar chaudhari"],
+      "response": "HOD of Electrical Engineering: Dr. M. K. Chaudhari (PhD – SVNIT Surat, M.E. Control System). 📧 mandar.chaudhari@ges-coengg.org"
+    },
+    {
+      "tag": "hod_civil",
+      "keywords": ["hod civil", "head civil department", "civil hod", "who is hod of civil", "civil department head", "dr narhari chaudhari", "narhari chaudhari"],
+      "response": "HOD of Civil Engineering: Dr. N. D. Chaudhari (PhD, M.E. Civil Water Management). 📧 narhari.chaudhari@ges-coengg.org"
+    },
+    {
+      "tag": "hod_mca",
+      "keywords": ["hod mca", "head mca department", "mca hod", "who is hod of mca", "mca department head", "dr poonam chaudhari", "poonam chaudhari"],
+      "response": "HOD of MCA (Faculty of Engineering): Dr. Mrs. Poonam A. Chaudhari (PhD, M.E. Computer Engineering). 📧 poonam.chaudhari@ges-coengg.org"
+    },
+    {
+      "tag": "all_hods",
+      "keywords": ["all hod", "list of hods", "hod list", "all department heads", "name of all hod", "who are hods", "department heads"],
+      "response": "HODs at RHSCOE: CE/AI-DS – Dr. D.V. Patil | Mech – Dr. P.B. Nehe | E&TC – Dr. S.P. Agnihotri | Electrical – Dr. M.K. Chaudhari | Civil – Dr. N.D. Chaudhari | MCA – Dr. Poonam A. Chaudhari."
+    },
+    {
+      "tag": "fee_fy_general",
+      "keywords": ["first year fees", "fy fees", "fe fees general", "how much fees first year", "first year engineering fees", "total fees FE", "fees for first year engineering"],
+      "response": "FY Engineering Fees (A.Y. 2025-26) – General Category: ₹70,000/year (Tuition: ₹61,565 + Development: ₹8,435). A one-time deposit fee of ₹1,000 is also applicable."
+    },
+    {
+      "tag": "fee_fy_obc",
+      "keywords": ["obc fees first year", "fees for obc ews", "ews fees", "obc ews fe fees", "fee obc category"],
+      "response": "FY Engineering Fees (A.Y. 2025-26) – OBC/EWS Category: ₹39,218/year (Tuition: ₹30,783 + Development: ₹8,435). One-time deposit: ₹1,000."
+    },
+    {
+      "tag": "fee_fy_vjnt_sbc",
+      "keywords": ["vjnt fees", "sbc fees", "nt category fees", "sc st fees", "scheduled caste fees", "tribal fees", "vjdt fees first year"],
+      "response": "FY Engineering Fees (A.Y. 2025-26) – VJDT/NT/SBC: Only Development Fee of ₹8,435 applies (Tuition: ₹0). SC/ST and TFWS categories: Only ₹8,435 (Development Fee). Girls with Free Education scheme: ₹8,435 only."
+    },
+    {
+      "tag": "fee_fy_girls_free",
+      "keywords": ["free education girls", "girls free fees", "girl student fees", "free for girls", "girls college fees"],
+      "response": "Under the Free Education for Girls scheme, girl students in FY Engineering pay only the Development Fee of ₹8,435/year. The rest of the tuition is covered by the government scheme."
+    },
+    {
+      "tag": "fee_me_pg",
+      "keywords": ["me fees", "pg fees", "post graduate fees", "master of engineering fees", "m.e. fees", "fees for me course"],
+      "response": "M.E. (PG) Fees (A.Y. 2025-26) – General: ₹51,000/year | OBC/EWS: ₹28,573 | VJDT/NT/SBC: ₹6,145 (Dev. Fee only) | SC/ST: ₹0 | Girls Free Education: ₹6,145. One-time deposit: ₹1,000."
+    },
+    {
+      "tag": "fee_mca",
+      "keywords": ["mca fees", "mca course fees", "master of computer application fees", "fees for mca", "mca total fees"],
+      "response": "MCA (A.Y. 2025-26) Fees – General: ₹51,500/year | OBC/EWS: ₹28,853 | VJDT/NT/SBC: ₹6,205 (Dev. Fee only) | SC/ST: ₹0 | TFWS/Girls: ₹6,205. One-time deposit: ₹1,000."
+    },
+    {
+      "tag": "fee_deposit",
+      "keywords": ["deposit fee", "one time fee", "admission deposit", "registration fee", "one time deposit"],
+      "response": "A one-time deposit fee of ₹1,000 is applicable for all programs (FY Engineering, DSY, MCA, and M.E.) at the time of admission."
+    },
+    {
+      "tag": "fee_scholarship_eligibility",
+      "keywords": ["scholarship fee reduction", "will scholarship reduce fees", "do I pay less with scholarship", "scholarship fee benefit", "how scholarship helps in fees"],
+      "response": "Scholarship/Free-ship benefits apply only if students submit the online application and it is approved by the Government of Maharashtra. Until approval, students must pay the full General Category fees."
+    },
+    {
+      "tag": "fee_nri",
+      "keywords": ["nri fees", "nri seat fee", "fees for nri students", "foreign student fees"],
+      "response": "NRI seat fees are not applicable at RHSCOE as per the current fee structure for A.Y. 2025-26."
+    },
+    {
+      "tag": "fee_structure_pdf",
+      "keywords": ["fee structure pdf", "download fee structure", "fee document", "fee structure link", "get fee details"],
+      "response": "You can download the official fee structure PDFs for A.Y. 2025-26 from: ges-coengg.org/fee-structure/ — includes FY Engg, DSY, MCA, and M.E. fee documents."
+    },
+    {
+      "tag": "hostel_details",
+      "keywords": ["hostel details", "hostel facilities", "boys hostel", "girls hostel", "hostel intake", "hostel amenities", "hostel food"],
+      "response": "The college has Boys' Hostel (120 seats) and Girls' Hostel (120 seats). Facilities include RO water, solar hot water, free Wi-Fi, gym, pure veg mess (Mon–Sat: breakfast, lunch, dinner; Sunday: breakfast & lunch), and 3-bed rooms with cupboards."
+    },
+    {
+      "tag": "hostel_rector",
+      "keywords": ["hostel warden", "hostel rector", "boys hostel warden", "girls hostel warden", "who manages hostel"],
+      "response": "Boys' Hostel Rector: Dr. S. P. Agnihotri | Girls' Hostel Rector: Dr. Mrs. M. S. Joshi."
+    },
+    {
+      "tag": "hostel_food",
+      "keywords": ["hostel mess", "hostel food", "mess timing", "what food in hostel", "veg non veg hostel", "mess menu"],
+      "response": "The hostel mess serves pure vegetarian food. Mon–Sat: Breakfast, Lunch & Dinner. Sunday: Breakfast & Lunch only."
+    },
+    {
+      "tag": "hostel_wifi",
+      "keywords": ["hostel wifi", "internet in hostel", "free wifi hostel", "hostel connectivity"],
+      "response": "Yes! The college hostel provides free Wi-Fi connectivity to all residents along with RO drinking water and solar-heated water for bathing."
+    },
+    {
+      "tag": "mental_health_counselling",
+      "keywords": ["mental health", "counselling cell", "stress help", "manodarpan", "psychological support", "student mental health", "anxiety support"],
+      "response": "The college has a Manodarpan & NSPS Counselling Cell. Nodal Officers: Dr. J. M. Sonawane and Dr. Mrs. S. G. Khadilkar. National Toll-Free Helpline: 844 844 0632."
+    },
+    {
+      "tag": "manodarpan_helpline",
+      "keywords": ["manodarpan helpline", "mental health helpline", "toll free helpline", "844 844 0632", "nsps helpline", "national helpline"],
+      "response": "For mental health support, you can call the National Toll-Free Helpline: 📞 844 844 0632 (Manodarpan initiative by Ministry of Education, Govt. of India). Available 24x7."
+    },
+    {
+      "tag": "student_insurance_scheme",
+      "keywords": ["swami vivekanand suraksha yojana", "student insurance scheme", "insurance yojana", "yuva suraksha", "government insurance students"],
+      "response": "The college offers the 'Swami Vivekanand Suraksha Yojana' — a student insurance scheme initiated by the Government of Maharashtra. Visit svyuvasuraksha.org for details."
+    },
+    {
+      "tag": "principal_name",
+      "keywords": ["who is principal", "principal name", "principal of college", "dr sane", "college principal"],
+      "response": "The Principal of RHSCOE is Dr. S. S. Sane. 📞 0253-2311842 | ✉️ principal@ges-coengg.org"
+    },
+    {
+      "tag": "vice_principal",
+      "keywords": ["vice principal", "who is vice principal", "deputy principal", "vice principal name"],
+      "response": "The Vice-Principal of RHSCOE is Dr. S. P. Agnihotri, who also serves as Head of the E&TC Engineering Department. ✉️ santosh.agnihotri@ges-coengg.org"
+    },
+    {
+      "tag": "fe_coordinator",
+      "keywords": ["fe coordinator", "first year coordinator", "fy coordinator", "who handles first year", "dr wani"],
+      "response": "The First Year (FE) Coordinator is Dr. P. P. Wani. ✉️ pankaj.wani@ges-coengg.org"
+    },
+    {
+      "tag": "women_grievance_cell",
+      "keywords": ["women cell", "vishakha cell", "women grievance", "sexual harassment complaint", "women committee", "she box"],
+      "response": "The Women's Grievance Redressal Cell (Vishakha) handles complaints related to gender-based issues. 'She BOX' Nodal Officer: Dr. Mrs. S. G. Khadilkar. Visit ges-coengg.org/womens-grievance-redressal-cell for details."
+    },
+    {
+      "tag": "sc_st_cell",
+      "keywords": ["sc st cell", "sc st committee", "scheduled caste tribe support", "sc st complaints", "sc st issues"],
+      "response": "The college has a dedicated SC/ST Committee to address concerns and support students from SC/ST communities. Visit ges-coengg.org/sc-st-cell for more info."
+    },
+    {
+      "tag": "helpline_24x7",
+      "keywords": ["24x7 helpline", "emergency helpline", "college helpline", "urgent help", "college emergency number"],
+      "response": "The college has a 24x7 Helpline for students. Visit ges-coengg.org/help-line-24-x-7 for the helpline contact details."
+    },
+    {
+      "tag": "fee_dsy",
+      "keywords": ["dsy fees", "direct second year fees", "lateral entry fees", "diploma student fees", "dse fees"],
+      "response": "Fee structure for Direct Second Year (DSY/Lateral Entry) for A.Y. 2025-26 is available at: ges-coengg.org/fee-structure/ — download the DSY fee PDF for category-wise details."
+    },
+    {
+      "tag": "code_of_conduct",
+      "keywords": ["code of conduct", "rules of college", "discipline rules", "student conduct", "college rules", "code of ethics"],
+      "response": "The college follows a strict Code of Conduct and Code of Ethics for all students. Visit ges-coengg.org/code-of-conduct or download the ethics document from the website."
+    }
+
+  ]
+}

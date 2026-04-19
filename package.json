@@ -1,0 +1,15 @@
+{
+  "name": "college-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mobile-first college helpdesk chatbot with keyword matching and JSON intents",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "node --watch server/app.js"
+    
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

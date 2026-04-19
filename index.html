@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0d1b2a" />
+    <title>GESCOE-Assist Helpdesk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-blobs" aria-hidden="true">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+    <main class="app-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <img class="brand-logo" src="Assets/image.png" alt="GESCOE logo" />
+          <div>
+            <h1>GESCOE-Assist</h1>
+            <p>Campus Helpdesk</p>
+          </div>
+        </div>
+        <span class="status-pill" aria-label="Online">Live</span>
+      </header>
+
+      <section id="chatArea" class="chat-area" aria-live="polite">
+        <div id="emptyState" class="empty-state">
+          <div class="hero-icon">🎓</div>
+          <h2>How can I help you today?</h2>
+          <p>
+            Ask about admissions, courses, fees, faculty, contact details,
+            events, scholarships, placements, or exam information.
+          </p>
+
+          <div id="quickTopics" class="quick-topics"></div>
+        </div>
+      </section>
+
+      <section class="composer-shell">
+        <div
+          id="suggestions"
+          class="suggestions"
+          aria-label="Suggestions"
+        ></div>
+        <div class="composer-row">
+          <input
+            id="messageInput"
+            type="text"
+            placeholder="Ask about courses, fees, contact..."
+            autocomplete="off"
+          />
+          <button id="sendBtn" type="button" aria-label="Send message">
+            Send
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
