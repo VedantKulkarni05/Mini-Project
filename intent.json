@@ -51,6 +51,11 @@
       "response": "The Computer Engineering & AI/DS department offers B.E. in Computer Engineering and AI & Data Science, and M.E. in Computer Engineering. Visit: ce.ges-coengg.org"
     },
     {
+      "tag": "computer_faculty_ai_ds",
+      "keywords": ["computer faculty", "computer department faculty", "faculty of computer engineering", "faculty of computer information", "computer staff", "computer engineering faculty", "people computer engineering ai ds"],
+      "response": "Faculty for Computer Engineering & AI/DS on the page include: Prof. Dr. Dipak V. Patil (HOD & Professor), Dr. Neeta A. Deshpande (Associate Professor), Mr. Nilesh V. Alone (Assistant Professor), Dr. Mrs. Archana S. Vaidya (Assistant Professor), Dr. Shivaji R. Lahane (Assistant Professor), Mr. Chandrakant R. Barde (Assistant Professor), Mr. Dhanraj M. Deshpande (Assistant Professor & TPO), Mr. Ratnakar S. Jagale (Assistant Professor), Ms. Vrushali S. Nikam (Assistant Professor), Mrs. Amrita A. Pundlik (Assistant Professor), Mr. Santosh A. Shinde (Assistant Professor), Ms. Trupti S. Atre (Assistant Professor), Mrs. Varsha V. Kulkarni (Assistant Professor), Mrs. Megha A. Patil (Assistant Professor), Ms. Shweta K. Borse (Assistant Professor), and Ms. Pratiksha V. Raut (Assistant Professor). Technical & Supporting Staff: Mr. Nitin B. Rajole, Mr. Prashant L. Kute, and Mr. Nikhil P. Joshi (Lab Assistants)."
+    },
+    {
       "tag": "mechanical_department",
       "keywords": ["mechanical department", "mechanical engineering", "me dept", "mech"],
       "response": "The Mechanical Engineering department offers B.E. in Mechanical Engineering and M.E. in Mechanical Engineering Design. Visit: me.ges-coengg.org"
